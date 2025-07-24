@@ -3,64 +3,84 @@ slug: /
 title: Welcome to Wokwi!
 ---
 
-import { LEDBullet } from '@site/src/components/LEDBullet'
+import { LEDBullet } from '@site/src/components/LEDBullet';
 import Admonition from '@theme/Admonition';
 
-Wokwi is an online Electronics simulator. You can use it to simulate Arduino, ESP32, STM32, and many other popular boards, parts and sensors.
+Wokwi is a powerful online electronics simulator. It enables you to prototype with platforms like **Arduino**, **ESP32**, **STM32**, and more — right from your browser.
 
-Here are some quick examples of things you can make with Wokwi:
+Whether you're a beginner or a professional, Wokwi helps bring your IoT and embedded systems ideas to life quickly and effortlessly.
 
-- [Arduino Uno "Hello World"](https://wokwi.com/projects/322062421191557714)
-- [Blink an LED on ESP32](https://wokwi.com/projects/305566932847821378)
-- [Monitor the weather on ATtiny85](https://wokwi.com/projects/292900020514980360)
+---
+
+## 🚀 Quick Project Examples
+
+Explore these ready-to-run projects and start building right away:
+
+- [Hello World on Arduino Uno](https://wokwi.com/projects/322062421191557714)
+- [Blink an LED with ESP32](https://wokwi.com/projects/305566932847821378)
+- [Weather Monitoring on ATtiny85](https://wokwi.com/projects/292900020514980360)
 - [Control 32 Servos with Arduino Mega](https://wokwi.com/projects/305336312628511297)
-- [Animate an LED Matrix with FastLED](https://wokwi.com/projects/320579687608746578)
-- [7 Segment Counter with MicroPython on Pi Pico](https://wokwi.com/projects/300210834979684872)
+- [LED Matrix Animation using FastLED](https://wokwi.com/projects/320579687608746578)
+- [7-Segment Counter on Raspberry Pi Pico (MicroPython)](https://wokwi.com/projects/300210834979684872)
 
-<Admonition type="tip" icon="💡" title="We're hiring a Technical Documentation Lead">
+<Admonition type="tip" icon="💡" title="We're Hiring: Technical Documentation Lead">
 
-  Think you can help improve our documentation? Take charge of Wokwi's docs and make a real impact on how users learn and build.
+Are you passionate about developer education and embedded systems?
 
-  [Apply here](https://docs.google.com/forms/d/e/1FAIpQLSebt166EkqsOtduU9hRurA65r6OjCftN9ECm4NFnmj0uQuOHw/viewform?usp=dialog)
+Join us to lead Wokwi's documentation and shape how makers, engineers, and educators learn and build.
+
+👉 [Apply now](https://docs.google.com/forms/d/e/1FAIpQLSebt166EkqsOtduU9hRurA65r6OjCftN9ECm4NFnmj0uQuOHw/viewform?usp=dialog)
 
 </Admonition>
 
-## Why Wokwi?
+---
 
-<LEDBullet title="Start right now">
-  No waiting for components, or downloading large software. Your browser has everything you need to start coding your next IoT project in seconds.
+## Why Choose Wokwi?
+
+<LEDBullet title="Instant Start — No Setup Required">
+  No installations. No drivers. No delays. Just open your browser and begin developing.
 </LEDBullet>
 
-<LEDBullet title="Mistakes are okay" color="green">
-  You can't destroy the virtual hardware. Trust us, we tried. So don't worry about frying your precious components. And unlike real  hardware, you can always undo.
+<LEDBullet title="Mistakes are Safe" color="green">
+  Burned a component? No worries — Wokwi is 100% virtual and fully reversible. Experiment freely!
 </LEDBullet>
 
-<LEDBullet title="Easy to get help and feedback" color="yellow">
-  Sharing a link to your Wokwi project is all you need.
+<LEDBullet title="Effortless Collaboration" color="yellow">
+  Need help? Just share your project link — no screenshots or zip files.
 </LEDBullet>
 
-<LEDBullet title="Gain confidence in your code" color="blue">
-  Separate hardware and software issues. 
+<LEDBullet title="Debug Smarter" color="blue">
+  Focus on your code. Isolate hardware issues with advanced debugging tools.
 </LEDBullet>
 
-<LEDBullet title="Unlimited hardware" color="orange">
-  No need to scavenge parts from old projects. Use as many parts as you need, without worrying about project price and stock.
+<LEDBullet title="Unlimited Virtual Hardware" color="orange">
+  Add as many components as needed. No cost. No stock limitations.
 </LEDBullet>
 
-<LEDBullet title="Maker-friendly community" color="purple">
-  A place for you to share your projects, ask for help, and get inspiration.<br/>
-  <a href="https://wokwi.com/discord">Wokwi Discord Community</a>
+<LEDBullet title="Community of Makers" color="purple">
+  Join our vibrant Discord community to share, learn, and collaborate.<br/>
+  <a href="https://wokwi.com/discord">Join the Wokwi Discord</a>
 </LEDBullet>
 
-## Unique Features
+---
 
-- [WiFi simulation](guides/esp32-wifi) - Connect your simulated project to the internet. You can use MQTT, HTTP, NTP, and many other network protocols.
-- [Virtual Logic Analyzer](guides/logic-analyzer) - Capture digital signals in your simulation (e.g. UART, I2C, SPI) and analyze them on your computer.
-- [Advanced debugging with GDB](gdb-debugging) - Powerful Arduino and Raspberry Pi Pico debugger for advanced users.
-- [SD card simulation](parts/wokwi-microsd-card) - Store and retrieve files and directories from your code. [Paying users](https://wokwi.com/pricing?ref=docs_sdcard) can also upload binary files (such as images)
-- [Chips API](chips-api/getting-started) - Create your own custom chips and parts, and share them with the community.
-- [Visual Studio Code integration](vscode/getting-started) - Simulate your embedded projects directly from VS Code.
+## 🧠 Unique Features
 
-## How much does it cost?
+- 📡 **[WiFi Simulation](guides/esp32-wifi)** — Simulate internet-connected projects via MQTT, HTTP, NTP, and more.
+- 🔍 **[Virtual Logic Analyzer](guides/logic-analyzer)** — Capture and analyze digital signals like UART, I2C, and SPI.
+- 🛠️ **[Advanced GDB Debugging](gdb-debugging)** — Step through Arduino or Pi Pico code with breakpoints and memory inspection.
+- 💾 **[SD Card Simulation](parts/wokwi-microsd-card)** — Read/write files and directories. Paid users can upload binary files such as images.
+- 🧩 **[Chips API](chips-api/getting-started)** — Build and share your own custom components.
+- 💻 **[Visual Studio Code Integration](vscode/getting-started)** — Simulate directly from VS Code for faster development cycles.
 
-Wokwi is free for personal use. For commercial users and professionals, please check out our paid plans in the [pricing page](https://wokwi.com/pricing?ref=docs_welcome).
+---
+
+## 💰 Pricing
+
+Wokwi is **free for personal and educational use**.
+
+For commercial or professional use, explore our [premium plans](https://wokwi.com/pricing?ref=docs_welcome) for additional features and support.
+
+---
+
+Feel free to customize the copy further depending on your audience (students, developers, professionals, etc.). Want me to also improve the visual design or layout for a Docs theme? Just say the word!
